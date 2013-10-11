@@ -1,0 +1,25 @@
+%DEFINE kernel 0x50
+
+%DEFINE scr_text_mode kernel:0003h
+%DEFINE scr_move_cursor kernel:0006h
+%DEFINE scr_print_string kernel:0009h
+%DEFINE scr_clear_screen kernel:000Ch
+%DEFINE scr_print_newline kernel:000Fh
+%DEFINE scr_get_cursor_pos kernel:0012h
+%DEFINE scr_input_string kernel:0015h
+%DEFINE kbd_wait_for_key kernel:0018h
+%DEFINE kbd_check_for_key kernel:001Bh
+%DEFINE disk_get_file_list kernel:001Eh
+%DEFINE disk_load_file kernel:0021h
+%DEFINE disk_file_exists kernel:0024h		
+%DEFINE disk_get_file_size kernel:0027h		
+%DEFINE str_string_uppercase kernel:002Ah
+%DEFINE str_string_length kernel:002Dh
+%DEFINE str_string_compare kernel:0030h
+%DEFINE str_string_parse kernel:0033h
+%DEFINE str_string_parse_ex kernel:0036h
+%DEFINE str_string_chomp kernel:0039h		
+%DEFINE str_string_strincmp kernel:003Ch
+%DEFINE str_char_seek kernel:003Fh
+%DEFINE str_int_to_string kernel:0042h
+%DEFINE os_exit kernel:0045h
